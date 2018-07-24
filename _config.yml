@@ -3,7 +3,7 @@ title: Web开发博客
 email: 710029721@qq.com
 description: >- 
   我的GitHub博客，记录Web学习和开发的点点滴滴．
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  uniqueWTS
