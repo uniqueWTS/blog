@@ -19,6 +19,10 @@ layout: basic
 		</div>
 		<div class="col-xs-12 col-sm-4 col-md-3">
 			{% include ads.html %}
+			{% include tasks.html %}
 		</div>
 	</div>
 </div>
+<script>
+	{% include dom/node.js %}
+</script>
