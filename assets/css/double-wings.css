@@ -1,0 +1,5 @@
+.page-sidebar {width: 200px; float: left; margin-left: -100%;}
+.wrap-main { width: 100%;  float: left; }
+.page-ads {width: 200px; float: left; margin-left: -200px;}
+.page-main {margin-left: 200px; margin-right: 200px;}
+.wrap { overflow: hidden; }

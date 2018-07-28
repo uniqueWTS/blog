@@ -1,9 +1,10 @@
 
-title: Web开发博客
+title: Web Design
+author: uniqueWTS
 email: 710029721@qq.com
 description: >- 
-  我的GitHub博客，记录Web学习和开发的点点滴滴．
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+  My own blog on GitHub, only for Web design purples.
+baseurl: "" # the subpath of your site, e.g. /blog．change it to your repo's name on github.
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  uniqueWTS
@@ -13,6 +14,14 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+# Customize navigation links
+#header_pages:
+#  - about.md
+#  - portfolio.md
+
+# 显示摘要
+# show_excerpts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

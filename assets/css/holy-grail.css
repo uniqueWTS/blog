@@ -1,0 +1,16 @@
+.page-main { width: 100%;  float: left;}
+.page-sidebar, .page-ads { width: 200px; float:left;}
+.page-sidebar { margin-left: -100%; position: relative; left: -200px; }
+.page-ads { margin-left: -200px; position: relative; right: -200px;}
+.wrap {padding: 0 200px; overflow: hidden}
+
+/* OR */
+
+ /*
+	.page-sidebar {width: 200px; float: right; margin-right: -200px; position: relative; right: 200px;}
+	.page-main {width:100%;float: right;}
+	.page-ads {width: 200px; float: right; margin-right: -100%; position: relative; left: 200px;}
+	.wrap {padding: 0 200px; overflow: hidden}
+ 
+ /*Media Query*/
+ 
