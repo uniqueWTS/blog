@@ -7,7 +7,8 @@ categories: jekyll update
 <style>
 	.page-content p {text-indent: 2em}
 </style>
-
+* TOC
+{:toc}
 ## 两种经典布局
 
 在 Web 开发中，三列(左中右)布局是最常见的布局方式．三列布局中最经典的2种方法是[圣杯布局(the Holy Grail)][holy grail]和[双飞翼布局(the Flying Wings)][flying wings].
