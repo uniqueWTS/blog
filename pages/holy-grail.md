@@ -1,8 +1,8 @@
 ---
 layout: basic
 ---
-<link rel="stylesheet" href="{{site.baseurl}}/assets/css/page.css">
-<link rel="stylesheet" href="{{site.baseurl}}/assets/css/holy-grail.css">
+<link rel="stylesheet" href="{{site.baseurl}}/public/css/page.css">
+<link rel="stylesheet" href="{{site.baseurl}}/public/css/holy-grail.css">
 
 <h1 style="text-align: center;">Reponsive Holy Cup</h1>
 <div class="wrap">
