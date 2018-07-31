@@ -1,0 +1,28 @@
+/* columns */
+/* commons in columns */
+.col-xs {
+	@include col;
+}
+
+/* set width pull push offset */
+$i: $columns;
+@while $i > 0 {
+	$v: percentage($i / $columns);
+	.col-xs-#{$i} {
+		@extend .col-xs;
+		width: $v;
+	}
+	.col-xs-pull-#{$i} {
+		left: $v;
+	}
+	.col-xs-push-#{$i} {
+		right: $v;
+	}
+	.col-xs-offset-#{$i} {
+		margin-left: $v;
+	}
+	$i: $i - 1;
+}
+
+
+

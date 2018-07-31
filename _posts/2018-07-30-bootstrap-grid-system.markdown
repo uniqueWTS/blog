@@ -44,4 +44,4 @@ Bootstrap 通过媒体查询(Media Query)进行响应式设计. 默认超小屏�
 [bootstrap docs]:http://www.bootcss.com/
 [bootstrap-grid.css]:{{site.baseurl}}/public/css/bootstrap-grid.css
 [bootstrap grid system]:https://v3.bootcss.com/css/#grid
-[bootstrap grid system design with sass]:#
+[bootstrap grid system design with sass]:{{site.baseurl}}/public/css/main.css

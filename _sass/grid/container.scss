@@ -1,0 +1,24 @@
+/* container */
+.container {
+	@include make-gutter;
+	@include center-block;
+}
+
+.container-fluid {
+	@include make-gutter;
+	@include center-block;
+}
+
+/* row */
+.row {
+	margin-left: -$gutter;
+	margin-right: -$gutter;
+}
+
+.container,
+.row,
+.container-fluid {
+	@include clearfix;
+}
+
+

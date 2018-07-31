@@ -1,0 +1,30 @@
+/* For medium screen only */
+@media only screen and (min-width: $screen-md-min){
+	.container {
+		width: $container-md;
+	}
+	.col-md {
+		@include col;
+	}
+
+	/* set width pull push offset */
+$i: $columns;
+@while $i > 0 {
+	$v: percentage($i / $columns);
+	.col-md-#{$i} {
+		@extend .col-md;
+		width: $v;
+	}
+	.col-md-pull-#{$i} {
+		left: $v;
+	}
+	.col-md-push-#{$i} {
+		right: $v;
+	}
+	.col-md-offset-#{$i} {
+		margin-left: $v;
+	}
+	$i: $i - 1;
+}
+
+}

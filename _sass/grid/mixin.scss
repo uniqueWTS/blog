@@ -1,0 +1,28 @@
+/* @mixins */
+
+@mixin make-gutter {
+	padding-left: $gutter;
+	padding-right: $gutter;
+}
+
+@mixin center-block {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// 清除浮动 IE8+
+@mixin clearfix {
+	&:after, &:before {
+		clear: both;
+		content: "";
+		display: table;
+	}
+}
+
+@mixin col {
+	float: left;
+	min-height: 1px;
+	@include make-gutter;
+	position: relative; // for pull & push
+}
+

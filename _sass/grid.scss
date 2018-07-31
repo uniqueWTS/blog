@@ -1,0 +1,31 @@
+/* Bootstrap Grids with Sass */
+
+/* 盒模型 */
+* {
+	box-sizing: border-box;
+}
+
+/* $variables */
+/* 栅格最大列数 12和槽宽 30px*/
+$columns: 12;
+$gutter-width: 30px;
+$gutter: $gutter-width / 2;
+/* 容器与屏幕宽度的设置 */
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+$container-sm: 750px;
+$container-md: 970px;
+$container-lg: 1170px;
+
+
+
+@import
+'grid/mixin',
+'grid/container',
+'grid/column',
+'grid/sm',
+'grid/md',
+'grid/lg';
+
+
