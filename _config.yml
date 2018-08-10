@@ -5,7 +5,7 @@ email: 710029721@qq.com
 description: >- 
   My own blog on GitHub, only for Web design purples.
 baseurl: "/blog" # the subpath of your site, e.g. /blog．change it to your repo's name on github.
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  uniqueWTS
 

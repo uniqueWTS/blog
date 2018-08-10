@@ -154,4 +154,4 @@ $i: $columns;
 [sass docs]:http://sass.bootcss.com/docs/guide/
 [1]: {{site.baseurl}}/jekyll/update/2018/07/30/bootstrap-grid-system.html
 [2]: {{site.baseurl}}/public/grid.scss.zip
-[3]: {{site.baseurl}}/pages/grid
+[3]: {{site.baseurl}}/public/html/grid

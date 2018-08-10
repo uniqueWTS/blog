@@ -36,7 +36,7 @@ categories: jekyll update
 .wrap {padding: 0 200px; overflow: hidden}
 ```
 #### 圣杯布局的效果
-点击查看[圣杯布局的效果]({{site.baseurl}}/pages/holy-grail).
+点击查看[圣杯布局的效果]({{site.baseurl}}/public/html/holy-grail).
 
 ### 双飞翼布局
 
@@ -62,7 +62,7 @@ categories: jekyll update
 .page-main {margin-left: 200px; margin-right: 200px;}
 ```
 #### 双飞翼布局的效果
-点击查看[双飞翼布局的效果]({{site.baseurl}}/pages/double-wings).
+点击查看[双飞翼布局的效果]({{site.baseurl}}/public/html/double-wings).
 
 ### 总结和展望
 
@@ -70,7 +70,7 @@ categories: jekyll update
 
 不过, 上述两种方法还是有不足之处, 因为它们不适用移动设备(例如手机). 解决这个问题可以采用响应式设计, 针对各种不同宽度屏幕, 进行相应的布局.
 
-布局的方法多种多样,还可以用绝对定位来布局. 这种方法结构和圣杯布局的结构一样, 点击[绝对定位布局效果]({{site.baseurl}}/pages/abs-pos/).
+布局的方法多种多样,还可以用绝对定位来布局. 这种方法结构和圣杯布局的结构一样, 点击[绝对定位布局效果]({{site.baseurl}}/public/html/abs-pos/).
 
 
 [holy grail]: https://en.wikipedia.org/wiki/Holy_grail_(web_design)
